@@ -7,7 +7,7 @@ import math
 def output_circle(func):
     def f(*args):
         result = func(*args)
-        print("Площадь круга равна:", '%.2f' %result)
+        print(f"Площадь круга равна: {result:.2f}")
 
     return f
 
